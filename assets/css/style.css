@@ -1,0 +1,36 @@
+.cabeçalho{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+
+}
+
+.menu__navegacao{
+   display: flex;
+}
+
+
+.menu__link{
+  margin-right:  1.5rem;
+  text-decoration: none;
+  color: #808080;
+  text-transform: lowercase;
+}
+
+.menu__link.active {
+    color: black;
+    font-weight: bold;
+}
+
+.menu__link:hover{
+    cursor: pointer;
+    transition: 300ms all ease;
+    text-decoration: underline lightcoral;
+   
+}
+
+.menu__item{
+    list-style: none;
+}
