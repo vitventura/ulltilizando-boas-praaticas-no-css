@@ -1,0 +1,18 @@
+.sobre{
+    text-align: center;
+    padding: 2.5rem ;
+}
+
+.sobre__tittle{
+    font-family:pacifico, cursive ;
+    font-weight: 400;
+    font-size: 3.1875rem;
+    color: #8D0606;
+}
+
+.sobre__descricao{
+    font-family: roboto, sans-serif;
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #8C8888;
+}
