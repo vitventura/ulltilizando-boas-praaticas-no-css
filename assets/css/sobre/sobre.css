@@ -16,3 +16,23 @@
     font-size: 1.75rem;
     color: #8C8888;
 }
+
+@media screen and (min-width:0){
+      .sobre__tittle{
+        font-size: 2.2rem;
+      }
+
+      .sobre__descricao{
+        font-size: 1.2rem;
+      }
+}
+
+@media screen and (min-width:768px){
+  .sobre__tittle{
+    font-size: 2.6rem;
+  }
+
+  .sobre__descricao{
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,25 @@
+.cabeçalho{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+
+}
+@media screen and (min-width:0){
+     .cabeçalho{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .cabeçalho__logo{
+        mix-blend-mode: multiply;
+     }
+    }
+
+    @media screen and (min-width:768px){
+       .cabeçalho{
+         flex-direction: row;
+       }
+    }

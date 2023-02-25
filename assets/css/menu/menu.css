@@ -17,7 +17,7 @@
  
  .menu__link:hover{
      cursor: pointer;
-     transition: 300ms all ease;
+     transition: 300ms all ease-in-out;
      text-decoration: underline lightcoral;
     
  }
